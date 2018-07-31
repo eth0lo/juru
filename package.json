@@ -1,0 +1,26 @@
+{
+  "name": "juru",
+  "version": "0.0.1",
+  "description": "async utilities to help testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eth0lo/juru.git"
+  },
+  "keywords": [
+    "async",
+    "effects",
+    "generators",
+    "iterators",
+    "promises"
+  ],
+  "author": "Jean Carlos Meninno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eth0lo/juru/issues"
+  },
+  "homepage": "https://github.com/eth0lo/juru#readme"
+}
