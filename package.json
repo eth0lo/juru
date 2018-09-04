@@ -4,7 +4,8 @@
   "description": "async utilities to help testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "standard",
+    "test": "tape 'tests/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/eth0lo/juru/issues"
   },
-  "homepage": "https://github.com/eth0lo/juru#readme"
+  "homepage": "https://github.com/eth0lo/juru#readme",
+  "dependencies": {
+    "curry-n": "^1.0.2",
+    "is-callable": "^1.1.4",
+    "is-generator-fn": "^1.0.0"
+  },
+  "devDependencies": {
+    "is-plain-object": "^2.0.4",
+    "is-promise": "^2.1.0",
+    "standard": "^12.0.1",
+    "tape": "^4.9.1"
+  }
 }
