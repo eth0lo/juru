@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "nyc tape 'tests/**/*.js'"
+    "test": "nyc --reporter=lcov tape 'tests/**/*.js'"
   },
   "repository": {
     "type": "git",
