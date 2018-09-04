@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "tape 'tests/**/*.js'"
+    "test": "nyc tape 'tests/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,8 @@
   "dependencies": {
     "curry-n": "^1.0.2",
     "is-callable": "^1.1.4",
-    "is-generator-fn": "^1.0.0"
+    "is-generator-fn": "^1.0.0",
+    "nyc": "^13.0.1"
   },
   "devDependencies": {
     "is-plain-object": "^2.0.4",
