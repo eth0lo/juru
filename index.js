@@ -6,6 +6,7 @@ const effectsResolver = require('./effects/resolver')
 
 const coroutine = (func, ...args) => {
   if (isGeneratorFn(func)) {
+    console.log('test')
     return evaluateGenerator(func.apply(this, args))
   } else if (isCallable(func)) {
     return func.apply(this, args)
