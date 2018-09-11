@@ -3,14 +3,17 @@
 </h1>
 
 <p align="center">
+  <a href="https://circleci.com/gh/eth0lo/juru">
+    <img src="https://img.shields.io/circleci/project/github/eth0lo/juru.svg?style=flat-square" />
+  </a>
   <a href="https://codeclimate.com/github/eth0lo/juru/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/ff33b4540148afef4035/maintainability" />
+    <img src="https://img.shields.io/codeclimate/maintainability/eth0lo/juru.svg?style=flat-square" />
   </a>
   <a href="https://codeclimate.com/github/eth0lo/juru/test_coverage">
-    <img src="https://api.codeclimate.com/v1/badges/ff33b4540148afef4035/test_coverage" />
+    <img src="https://img.shields.io/codeclimate/coverage/eth0lo/juru.svg?style=flat-square" />
   </a>
   <a href="https://standardjs.com">
-    <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="Standard - JavaScript Style Guide">
+    <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square" alt="Standard - JavaScript Style Guide">
   </a>
 </p>
 
