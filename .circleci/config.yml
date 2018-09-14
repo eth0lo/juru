@@ -40,3 +40,7 @@ jobs:
             ./cc-test-reporter before-build
             npm test
             ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?
+
+      - run:
+          name: Release
+          command: npm run semantic-release || true
