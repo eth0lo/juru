@@ -15,6 +15,9 @@
   <a href="https://standardjs.com">
     <img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square" alt="Standard - JavaScript Style Guide">
   </a>
+  <a href="https://github.com/semantic-release/semantic-release">
+    <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square" alt="Standard - JavaScript Style Guide">
+  </a>
 </p>
 
 Juru can be used to give visibility of side-effects (i.e. asynchronous data fetching, storing data) that happens during the application runtime; making the application easier to test, and better at handling failures.
@@ -87,7 +90,7 @@ test('should request user information both locally and remotely', (assert) => {
     call(externalService, 'findUser', externalIdMock)
     call(insternalStorage, 'findUserByExternalId', externalIdMock)
   ))
-  
+
   assert.end()
 })
 
