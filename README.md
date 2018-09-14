@@ -106,3 +106,9 @@ test('should return the user with all his/her purchases', (assert) => {
   assert.end()
 })
 ```
+
+## Alternatives
+
+- Proxyquire
+- Rewire
+- Sinon
