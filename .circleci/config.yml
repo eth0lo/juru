@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:7.10
+      - image: circleci/node:8.11
 
     working_directory: ~/juru
 
@@ -40,3 +40,7 @@ jobs:
             ./cc-test-reporter before-build
             npm test
             ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?
+
+      - run:
+          name: Release
+          command: npm run semantic-release || true

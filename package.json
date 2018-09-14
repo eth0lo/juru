@@ -1,15 +1,16 @@
 {
   "name": "juru",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "async utilities to help testing",
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "nyc --reporter=lcov tape 'tests/**/*.js'"
+    "test": "nyc --reporter=lcov tape 'tests/**/*.js'",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eth0lo/juru.git"
+    "url": "https://github.com/eth0lo/juru.git"
   },
   "keywords": [
     "async",
@@ -34,6 +35,7 @@
     "is-promise": "^2.1.0",
     "nyc": "^13.0.1",
     "standard": "^12.0.1",
-    "tape": "^4.9.1"
+    "tape": "^4.9.1",
+    "semantic-release": "^15.9.15"
   }
 }
