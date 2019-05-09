@@ -28,14 +28,14 @@
   "dependencies": {
     "curry-n": "^1.0.2",
     "is-callable": "^1.1.4",
-    "is-generator-fn": "^1.0.0"
+    "is-generator-fn": "^2.1.0"
   },
   "devDependencies": {
-    "is-plain-object": "^2.0.4",
+    "is-plain-object": "^3.0.0",
     "is-promise": "^2.1.0",
-    "nyc": "^13.0.1",
+    "nyc": "^14.1.0",
+    "semantic-release": "^15.13.13",
     "standard": "^12.0.1",
-    "tape": "^4.9.1",
-    "semantic-release": "^15.9.15"
+    "tape": "^4.10.1"
   }
 }
