@@ -34,7 +34,7 @@ test('effects', (t) => {
       t.test('with arguments', (assert) => {
         const objectMock = { }
         const methodNameMock = 'test'
-        const args = [ 1, 2, 3, 4 ]
+        const args = [1, 2, 3, 4]
 
         const { payload } = call(objectMock, methodNameMock, ...args)
 
@@ -76,7 +76,7 @@ test('effects', (t) => {
 
       t.test('with arguments', (assert) => {
         const effectMock = call()
-        const args = [ 1, effectMock, 3, 4 ]
+        const args = [1, effectMock, 3, 4]
         const { payload } = all(...args)
 
         assert.ok(Array.isArray(payload.effects))
