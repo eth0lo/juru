@@ -30,7 +30,7 @@ test('resolver', (t) => {
     ))
     assert.ok(isPromise(result))
 
-    const [ promise, constant ] = await result
+    const [promise, constant] = await result
     assert.equal(promise, 42)
     assert.equal(constant, 24)
 

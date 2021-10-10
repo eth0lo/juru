@@ -7,7 +7,7 @@ const resolver = (effectDescriptor) => {
 exports = module.exports = resolver
 
 const resolvers = {}
-resolvers[ '@@CALL' ] = ({ obj, method, args }) => obj[method](...args)
-resolvers[ '@@ALL' ] = ({ effects }) => Promise.all(effects.map(resolver))
+resolvers['@@CALL'] = ({ obj, method, args }) => obj[method](...args)
+resolvers['@@ALL'] = ({ effects }) => Promise.all(effects.map(resolver))
 
 exports.resolvers = resolvers
